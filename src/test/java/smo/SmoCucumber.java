@@ -7,16 +7,16 @@ import io.cucumber.java.pt.Quando;
 public class SmoCucumber {
 
     @Dado("que criei o arquivo corretamente")
-    public void que_criei_o_arquivo_corretamente() {
-
+    public void queCrieiOArquivoCorretamente() {
+        System.out.println("criei o arquivo");
     }
     @Quando("executar o arquivo")
-    public void executar_o_arquivo() {
+    public void executarOArquivo() {
+        System.out.println("executar arquivo");
 
     }
     @Entao("a executação deve finalizar com sucesso")
-    public void a_executação_deve_finalizar_com_sucesso() {
-
+    public void aExecutaçãoDeveFinalizarComSucesso() {
+        System.out.println("finalizar com sucesso");
     }
-
 }
