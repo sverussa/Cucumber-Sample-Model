@@ -8,3 +8,8 @@ Cenario: Simples Cenario Ler Arquivo
   Dado que criei o arquivo corretamente
   Quando executar o arquivo
   Entao a executação deve finalizar com sucesso
+
+Cenario: Checar Numero Primo é o Primeiro
+  Dado uma lista de numeros primos
+  Quando verificar o numero primo 2
+  Entao o resultado será verdadeiro para a primeira posicao
